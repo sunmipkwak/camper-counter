@@ -1,0 +1,42 @@
+body {
+    background-image: url(campercounter.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: "Courier New",  "Lucida Console", "Monaco", "Monospace";
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+
+}
+h2 {
+    font-size: 50px 
+}
+
+button {
+    border: none;
+    border-radius: 2px;
+    width: 180px;
+    height: 30px;
+    font-family: "Courier New",  "Lucida Console", "Monaco", "Monospace";
+    font-size: 20px;
+}
+
+#checkin-btn {
+    background: rgb(98, 125, 67);
+}
+
+#save-btn{
+    background: #d2994e;
+}
+
+@media (max-width: 600px) {
+    div.media {
+      font-size: 40px;
+    }
+
+    h1 {
+        padding-top: 0px;
+    }
+  }
